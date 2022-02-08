@@ -1,0 +1,20 @@
+from earsketch import*
+
+init()
+setTempo(79)
+
+# Add Sounds
+fitMedia(RD_POP_SYNTHBASS_1, 1, 1, 2)
+fitMedia(YG_ALT_POP_PIANO_1, 2, 1, 2)
+fitMedia(YG_TRAP_SYNTH_CHOIR_2, 3, 1, 2)
+
+# Effects fade in
+setEffect(10, VOLUME,GAIN, -20, 1, 6, 1)
+
+# Fills
+fillA = "00000000-----------------------"
+fillB = "-----------------------00000000"
+makeBeat(IRCA_OS_MARACA_4, 4, 1, fillA)
+makeBeat(OS_KICK03, 5, 1, fillB)
+
+finish()
