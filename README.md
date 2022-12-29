@@ -1,6 +1,8 @@
 # Image-to-Audio-Code-Generation
-This Project takes in an Image an generates a python Code that can be pasted on the Earsketch Website to generate Audio
 
+<img src="Image-to-Audio-Code-Generation Logo.png">
+
+This Project takes in an Image an generates a python Code that can be pasted on the Earsketch Website to generate Audio
 
 Using it is very simple just clone and paste your image in the folder and then change the path names in the Processing sketch.
 
